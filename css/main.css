@@ -1,0 +1,342 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*BACKGROUND*/
+body {
+	background: url("file:///C:/Users/karen/Documents/karenkappel.github.io/images/test.svg")#F5EBE1;
+    background-repeat: no-repeat; 
+	background-size: 1920px;
+}
+
+
+/*H1/H2/H3/H4/H5/H6/P/LI/A*/
+
+h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Podkova';
+}
+
+p, li {
+	font-family: 'Open-sans', sans-serif;
+}
+
+h1 {
+	font: Bold 50px/55px Podkova;
+}
+
+h2 {
+	font-size: 1.3rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-weight: 800;
+}
+
+h4 {
+	font-size: 1.1rem;
+	margin-top: 2rem;
+	font-weight: 800;
+}
+
+h5 {
+	font-size: 1rem;
+	margin-top: 2rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, p, li {
+	color: #7B8F96;
+}
+
+h3, h4, h5, a {
+	color: #E4A795;
+}
+
+header {
+	text-align: center;
+	margin-top: 5rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+	header h2 {
+		font: Bold 20px/22px Podkova;	
+		margin-top: 1rem;
+	}
+
+/*ELEMENTS*/
+
+.main {
+	background-color: white;
+    max-width: 72rem;
+    margin: 3rem 0rem 0rem 0rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+	.main ul {
+		display: flex;
+		flex-direction: row;
+	}
+	
+		.main ul li {
+			padding: 15px;
+		}
+
+		.active {
+			font-weight: 800;
+			background-color: white;
+		}
+
+		.inactive a{
+			color: #FFF;
+		}
+
+		.inactive a:hover {
+			font-weight: 800;
+		}
+
+	
+.post {
+	max-width: 451px;
+	margin: 33px auto 33px;	
+}
+
+.imagecontainter {
+	width: 316px;
+    height: 217px;
+}
+
+.post .postimage {
+	width: 85%;
+	display: block;
+}
+
+	.post h2 {
+		padding: 0px 15px 20px 0px;
+	}
+
+	.post h2 a{
+		font-weight: 100;
+		color: #7B8F96;
+	}
+
+.post h2:hover {
+	cursor: pointer; 
+}
+
+	.post p {
+	    padding: 30px 20px 20px 0px;
+    	line-height: 1.5rem;
+		max-width: 20rem;
+	}
+
+.post .buttonlink{
+	font-weight: 800;
+}
+
+
+.bread {
+	margin: 2rem;
+    font-family: Podkova;
+	width: 100%;
+	max-height: 2rem;
+}
+
+.bread a:hover {
+	cursor: pointer;
+}
+
+
+.detailpost {
+	max-width: 80%;
+    margin: 2rem auto 0 auto;
+}
+
+.detailpost h3 {
+	margin-top: 2rem;
+}
+
+.detailpost p {
+	line-height: 2rem;
+	padding-top: 15px;
+}
+
+.detailpost ul {
+	flex-direction: column;
+    list-style: circle;
+	margin: .8rem 0 0rem 0;
+}
+
+.detailpost ul li {
+	  color: #7B8F9;
+}
+
+.imagedetailpost {
+	margin-top: 2rem;
+    width: 70%
+}
+
+.imagedetailpost img {
+	width: 140%;
+}
+
+.imgbottom {
+	margin-bottom: 4rem;
+}
+
+.imagedetailpostsmall {
+	margin-top: 1rem;
+    max-width: 20rem;
+}
+
+.imagedetailpostsmall img {
+	width: 100%;
+}
+
+.picturelistdetail {
+	display: flex;
+    flex-direction: row;
+}
+
+.picturelistdetail p {
+	padding: 15px;
+	max-width: 35rem;
+}
+
+#containermethod {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.method {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 42%;
+    margin: 2rem 2rem 2rem 0;
+    background-color: #A3C4A9;
+    color: white;
+    padding: 20px;
+}
+
+	.method h4{
+		color: white;
+	}
+
+		.method p {
+			color: white;
+		}
+
+nav {
+    margin: 4rem auto 0 auto;
+    overflow: hidden;
+    position: relative;
+    max-width: 72rem
+}
+
+	.links {
+	background-color: #d3b8b8;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+		.links li {
+			padding: 20px;
+		}
+
+footer {
+	height: 10rem;
+}
+
+#h2about {
+	margin-top: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+	.post {
+		margin: 3rem auto 1rem auto;
+		padding: 20px;
+	}
+	
+	.imagecontainter {
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and  (max-width: 700px) {
+	
+	.imagecontainter {
+		max-width: 27rem;
+	}
+	
+	.post p {
+		max-width: 100%;
+	}
+	
+}
+	
+
+@media screen and (max-width: 1123px) {
+		.method {
+			max-width: 37rem;
+		}
+	}
