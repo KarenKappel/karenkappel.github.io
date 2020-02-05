@@ -163,6 +163,7 @@ header {
     padding: 10px;
   }
 
+/*CHIPS*/
 .tagcontainer {
 	display: flex;
     flex-direction: row;
@@ -176,6 +177,8 @@ header {
 .tag > h5{
 	margin: 0 auto;
 }
+
+/*///////////////////////////////////////*/
 
 .imagecontainter {
 	/*width: 300px;*/
