@@ -163,6 +163,20 @@ header {
     padding: 10px;
   }
 
+.tagcontainer {
+	display: flex;
+    flex-direction: row;
+}
+
+.tag {
+	padding: 10px;
+	margin: 1rem 1rem 1rem 0;
+}
+
+.tag > h5{
+	margin: 0 auto;
+}
+
 .imagecontainter {
 	/*width: 300px;*/
     height: 300px;
@@ -189,7 +203,7 @@ header {
 }
 
 	.post p {
-	    padding: 30px 20px 20px 0px;
+	    padding: 0 20px 20px 0px;
     	line-height: 1.5rem;
 		/*max-width: 20rem;*/
 	}
@@ -243,6 +257,12 @@ header {
 #imagecontaintermotek {
 	background: url(../images/motek-logo.png) bottom center no-repeat;
 	background-size: 100%;
+	margin-top: 1rem;
+}
+
+#imagecontainterpuuviljatee {
+	background: url("../images/puuviljatee.jpg") center no-repeat;
+	background-size: 134%;
 	margin-top: 1rem;
 }
 
