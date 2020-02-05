@@ -121,7 +121,7 @@ header {
 
 .main {
 	background-color: white;
-    max-width: 72rem;
+    max-width: 90%;
     margin: 3rem 0rem 0rem 0rem;
     margin: 0 auto;
     display: flex;
@@ -151,29 +151,37 @@ header {
 			font-weight: 800;
 		}
 
+.postcontainer {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 	
 .post {
-	max-width: 451px;
-	margin: 33px auto 33px;	
-}
+	margin: 2rem auto;
+    max-width: 500px;
+    padding: 10px;
+  }
 
 .imagecontainter {
-	width: 316px;
-    height: 217px;
+	/*width: 300px;*/
+    height: 300px;
 }
 
 .post .postimage {
-	width: 85%;
+	/*width: 85%;*/
 	display: block;
 }
 
 	.post h2 {
-		padding: 0px 15px 20px 0px;
+		margin: 0 auto;
+    	width: 13rem;
 	}
 
 	.post h2 a{
 		font-weight: 100;
 		color: #7B8F96;
+		font-size: 1.5rem;
 	}
 
 .post h2:hover {
@@ -183,7 +191,7 @@ header {
 	.post p {
 	    padding: 30px 20px 20px 0px;
     	line-height: 1.5rem;
-		max-width: 20rem;
+		/*max-width: 20rem;*/
 	}
 
 .post .buttonlink{
@@ -230,6 +238,42 @@ header {
 .imagedetailpost {
 	margin-top: 2rem;
     width: 70%
+}
+
+#imagecontaintermotek {
+	background: url(../images/motek-logo.png) bottom center no-repeat;
+	background-size: 100%;
+	margin-top: 1rem;
+}
+
+#imagecontainterlefv {
+	background: url("../images/pic05.png") bottom center no-repeat;
+	background-size: 100%;
+	margin-top: 1rem;
+}
+
+#imagecontainterbuurt {
+	background: url("../images/pic03.jpg") bottom center no-repeat;
+	background-size: 100%;
+	margin-top: 1rem;
+}
+
+#imagecontainterherman {
+	background: url("../images/pic04.png") bottom center no-repeat;
+	background-size: 100%;
+	margin-top: 1rem;
+}
+
+#imagecontaintersilber {
+	background: url("../images/pic02.jpg") bottom center no-repeat;
+	background-size: 100%;
+	margin-top: 1rem;
+}
+
+#imagecontainterbackrub {
+	background: url("../images/Mockup-backrub.jpg") center no-repeat;
+	background-size: 100%;
+	margin-top: 1rem;
 }
 
 .imagedetailpost img {
@@ -288,7 +332,11 @@ nav {
     margin: 4rem auto 0 auto;
     overflow: hidden;
     position: relative;
-    max-width: 72rem
+    max-width: 90%;
+}
+
+nav a {
+	font-size: 25px;
 }
 
 	.links {
@@ -299,7 +347,7 @@ nav {
 }
 
 		.links li {
-			padding: 20px;
+			padding: 30px;
 		}
 
 footer {
