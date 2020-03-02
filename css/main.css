@@ -223,7 +223,7 @@
 	}
 
 	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, 
-	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject {
+	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd {
 		height: 475px;
 		background-size: 120%!important;
 	}
@@ -260,6 +260,11 @@
 
 		#imagecontainteridk {
 			background: url("../img/puuviljatee.jpg") center no-repeat #ededed;		
+		}
+
+		#imagecontaintermhd {
+			background: url("../img/mhd-main.png") center no-repeat #ededed;
+			background-size: 170%!important;		
 		}
 
 	/*//////////////////////////////////////////////////////////////////////////Content Projectpagina's*/
@@ -300,6 +305,35 @@
 			background-size: 116%!important;
 			height: 475px;
 		}
+
+		#imagecontaintermhdproject {
+			background: url("../img/mhd.png")  center no-repeat;
+			background-size: 116%!important;
+			height: 475px;
+		}
+
+		#mhd-feed {
+			background: url("../img/news-feed.png")  center no-repeat;
+			background-size: 100%!important; 
+		}
+
+		#mhd-bocs {
+			background: url("../img/y-bocs.png")  center no-repeat;
+			background-size: 90%!important; 
+		}
+
+
+		#mhd-test {
+			background: url("../img/the-test.png")  center no-repeat;
+			background-size: 100%!important; 
+		}
+
+
+		#mhd-score { 
+			background: url("../img/result.png")  center no-repeat;
+			background-size: 85%!important; 
+		}
+
 
 	.bread a {
 		font-family: 'Open-sans', sans-serif;
@@ -362,7 +396,7 @@
 					}
 
 					#imagecontainterbackrubproject, #imagecontaintersilberfuchsproject, #imagecontainterlefvproject, #imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, 
-	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject {
+	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd {
 						height: 300px;
 					}
 
