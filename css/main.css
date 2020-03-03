@@ -309,7 +309,7 @@
 		#imagecontaintermhdproject {
 			background: url("../img/mhd.png")  center no-repeat;
 			background-size: 116%!important;
-			height: 350px;
+			height: 475px;
 		}
 
 		#mhd-feed {
@@ -396,13 +396,9 @@
 					}
 
 					#imagecontainterbackrubproject, #imagecontaintersilberfuchsproject, #imagecontainterlefvproject, #imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, 
-	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd {
+	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd, #imagecontaintermhdproject {
 						height: 300px;
 					}
-
-					/*.seductive-design-explanation {
-						grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-					}*/
 				}
 
 		.img {
