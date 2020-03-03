@@ -312,6 +312,10 @@
 			height: 475px;
 		}
 
+		#mhd-feed, #mhd-bocs, #mhd-test, #mhd-score {
+			height: 300px;
+		}
+
 		#mhd-feed {
 			background: url("../img/news-feed.png")  center no-repeat;
 			background-size: 100%!important; 
