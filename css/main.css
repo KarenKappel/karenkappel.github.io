@@ -1,7 +1,7 @@
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Table of contents*/
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Reset*/
-	/* http://meyerweb.com/eric/tools/css/reset/ 
+	/* http://meyerweb.com/eric/tools/css/reset/
 	   v2.0 | 20110126
 	   License: none (public domain)
 	*/
@@ -15,8 +15,8 @@
 	dl, dt, dd, ol, ul, li,
 	fieldset, form, label, legend,
 	table, caption, tbody, tfoot, thead, tr, th, td,
-	article, aside, canvas, details, embed, 
-	figure, figcaption, footer, header, hgroup, 
+	article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup,
 	menu, nav, output, ruby, section, summary,
 	time, mark, audio, video {
 		margin: 0;
@@ -27,7 +27,7 @@
 		vertical-align: baseline;
 	}
 	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure, 
+	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -58,9 +58,9 @@
 	    grid-template-columns: [first] 5% [line2] auto [col4-start] 5% [end];
 	    grid-template-rows: [row1-start] 150px [row1-end] auto [third-line] 5% [last-line];
 	    /*header 5%| main content auto |footer 5%*/
-	    height: 100vh; 
+	    height: 100vh;
 	    /*100% viewport height*/
-	  	/*grid-template-areas: 
+	  	/*grid-template-areas:
 		    "header header header header header"
 		    ". main main main main . "
 		    "footer footer footer footer footer";*/
@@ -69,7 +69,7 @@
 	@media screen and (max-width: 450px) {
 		body {
 			grid-template-columns: [first] 3% [line2] auto [col4-start] 3% [end];
-		}	
+		}
 
 		main {
 			grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))!important;
@@ -170,7 +170,7 @@
 	}*/
 
 	header h1:first-child {
-			color: #FF015B;
+			color: #DD5F75;
 			margin-top: 2rem;
 		}
 
@@ -179,7 +179,7 @@
 	    margin-top: .6rem;
 	    justify-self: end;
 	    align-self: end;
-	}	
+	}
 
 		#inactive {
 			font-family: 'Belgika16th';
@@ -188,19 +188,19 @@
 		@media screen and (max-width: 1111px) {
 			nav {
 				justify-self: start;
-			}	
+			}
 		}
 
 		@media screen and (min-width: 1667px) {
 			nav {
 				grid-area: 1 / 2 / last-line / 4;
-			}	
+			}
 		}
 
 		@media screen and (min-width: 2223px) {
 			nav {
 				grid-area: 1 / 2 / col4-start / 5;
-			}	
+			}
 		}
 
 	#introduction {
@@ -223,7 +223,7 @@
   		grid-row: 2 / 1;
 	}
 
-	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, 
+	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt,
 	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd {
 		height: 475px;
 		background-size: 120%!important;
@@ -260,12 +260,12 @@
 		}
 
 		#imagecontainteridk {
-			background: url("../img/puuviljatee.jpg") center no-repeat #ededed;		
+			background: url("../img/puuviljatee.jpg") center no-repeat #ededed;
 		}
 
 		#imagecontaintermhd {
 			background: url("../img/mhd-main.png") center no-repeat #ededed;
-			background-size: 170%!important;		
+			background-size: 170%!important;
 		}
 
 	/*//////////////////////////////////////////////////////////////////////////Content Projectpagina's*/
@@ -288,7 +288,7 @@
 
 		.seductive-design-explanation img {
 			height: 300px;
-		} 
+		}
 
 		#imagecontainterlefvproject {
 			background: url("../img/pic05.jpg") center no-repeat;
@@ -319,24 +319,24 @@
 
 		#mhd-feed {
 			background: url("../img/news-feed.png")  center no-repeat;
-			background-size: 100%!important; 
+			background-size: 100%!important;
 		}
 
 		#mhd-bocs {
 			background: url("../img/y-bocs.png")  center no-repeat;
-			background-size: 90%!important; 
+			background-size: 90%!important;
 		}
 
 
 		#mhd-test {
 			background: url("../img/the-test.png")  center no-repeat;
-			background-size: 100%!important; 
+			background-size: 100%!important;
 		}
 
 
-		#mhd-score { 
+		#mhd-score {
 			background: url("../img/result.png")  center no-repeat;
-			background-size: 85%!important; 
+			background-size: 85%!important;
 		}
 
 
@@ -400,7 +400,7 @@
 						grid-template-rows: 420px auto;
 					}
 
-					#imagecontainterbackrubproject, #imagecontaintersilberfuchsproject, #imagecontainterlefvproject, #imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, 
+					#imagecontainterbackrubproject, #imagecontaintersilberfuchsproject, #imagecontainterlefvproject, #imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt,
 	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd, #imagecontaintermhdproject {
 						height: 300px;
 					}
@@ -445,7 +445,7 @@
 	#imagecontainteraboutme {
 			background: url("../img/karen.jpeg") center no-repeat;
 			background-size: 140%;
-			height: 300px;		
+			height: 300px;
 		}
 
 	.card-container {
