@@ -51,6 +51,26 @@
 		border-spacing: 0;
 	}
 
+	@font-face {
+		font-family: "Belgika-5th";
+		src: url("fonts/Belgika-5th.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Belgika-8th";
+	src: url("fonts/Belgika-8th.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Belgika-16th";
+	src: url("fonts/Belgika-16th.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Belgika-40th";
+	src: url("fonts/Belgika-40th.otf") format("opentype");
+}
+
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Body*/
 
 	body {
@@ -220,7 +240,7 @@
 
 	.project-puuviljatee {
 		grid-column: 1 / 2;
-  		grid-row: 2 / 1;
+  		/* grid-row: 2 / 1; */
 	}
 
 	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt,
@@ -256,7 +276,7 @@
 		}
 
 		#imagecontainterbackrub {
-			background: url("../img/mockup-backrub.jpg") center no-repeat #ededed;
+			background: url("../img/mockup-backrub.png") center no-repeat #ededed;
 		}
 
 		#imagecontainteridk {
@@ -302,7 +322,7 @@
 		}
 
 		#imagecontainterbackrubproject {
-			background: url("../img/mockup-backrub")  center no-repeat;
+			background: url("../img/mockup-backrub.png")  center no-repeat;
 			background-size: 116%!important;
 			height: 475px;
 		}
