@@ -101,8 +101,7 @@
 	h1, h2, h6, a {
 		color: #2F2F2F;
 		font-family: 'Belgika5th';
-		line-height: calc(2rem + .6vh);
-		/* line-height: calc(1.5rem + .6vh); */
+		line-height: calc(1.5rem + .6vh);
 	}
 
 	p, li {
@@ -113,7 +112,8 @@
 	}
 
 	h1 {
-		font-size: calc(1.3rem + .6vh);
+		/* font-size: calc(1.3rem + .6vh); */
+		line-height: calc(2rem + .6vh);
 	}
 
 	h2 {
