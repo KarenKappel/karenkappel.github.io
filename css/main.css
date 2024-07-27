@@ -51,26 +51,6 @@
 		border-spacing: 0;
 	}
 
-	@font-face {
-		font-family: "Belgika-5th";
-		src: url("fonts/Belgika-5th.otf") format("opentype");
-}
-
-	@font-face {
-	font-family: "Belgika-8th";
-	src: url("fonts/Belgika-8th.otf") format("opentype");
-}
-
-	@font-face {
-	font-family: "Belgika-16th";
-	src: url("fonts/Belgika-16th.otf") format("opentype");
-}
-
-	@font-face {
-	font-family: "Belgika-40th";
-	src: url("fonts/Belgika-40th.otf") format("opentype");
-}
-
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Body*/
 
 	body {
@@ -98,22 +78,39 @@
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Typography*/
 
+/* @font-face {
+    font-family: 'Belgika';
+    src:  url("fonts/Belgika-5th.otf") format("opentype");
+		src: url("fonts/Belgika-8th.otf") format("opentype");
+		src: url("fonts/Belgika-16th.otf") format("opentype");
+		src: url("fonts/Belgika-40th.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+} */
+
+	body {
+		font-family: "Nunito";
+	}
+
+
 	h1, h2, h6, a {
 		color: #2F2F2F;
-		font-family: 'Belgika5th';
 		line-height: calc(1.5rem + .6vh);
 	}
 
 	p, li {
-		font-family: 'Roboto', Open sans, sans-serif;
 		color: #2F2F2F;
 		line-height: calc(1.5rem + .6vh);
 		font-weight: 300;
 	}
 
 	h1 {
-		/* font-size: calc(1.3rem + .6vh); */
-		line-height: calc(2rem + .6vh);
+		font-size: calc(1.3rem + .6vh);
+		font-weight: 800;
+	}
+
+	h2, h3, h4, h5 {
+		font-weight: 600;
 	}
 
 	h2 {
@@ -122,14 +119,12 @@
 
 	h3 {
 		font-size: calc(1rem + .1vh);
-		font-family: 'Belgika8th';
 		line-height: 2rem;
 		padding-left: 10px;
 	}
 
 	h4 {
 		font-size: calc(.9rem + .1vh);
-		font-family: 'Belgika8th';
 		line-height: 2rem;
 		margin-top: 1rem;
 		padding-left: 10px;
@@ -137,14 +132,13 @@
 
 	h5 {
 		font-size: calc(.8rem + .1vh);
-		font-family: 'Belgika8th';
 		line-height: 2rem;
 		margin-top: 1rem;
 		padding-left: 10px;
 	}
 
 	h6 {
-		font-family: 'Belgika8th';
+		font-weight: 400;
 	}
 
 
@@ -193,6 +187,7 @@
 	header h1:first-child {
 			color: #DD5F75;
 			margin-top: 2.5rem;
+			font-weight: 800;
 		}
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Content*/
@@ -202,9 +197,13 @@
 	    align-self: end;
 	}
 
-		#inactive {
-			font-family: 'Belgika16th';
+		#active {
+			font-weight: 800;
 		}
+
+		/* #inactive {
+			font-family: "Nunito";
+		} */
 
 		@media screen and (max-width: 1111px) {
 			nav {
