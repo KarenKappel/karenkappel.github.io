@@ -117,6 +117,10 @@
 		font-size: calc(1rem + .1vh);
 	}
 
+		a h2 {
+			padding-top: 8px;
+		}
+
 	h3 {
 		font-size: calc(1rem + .1vh);
 		line-height: 2rem;
@@ -157,6 +161,8 @@
 
 			a:hover {
 				cursor: pointer;
+				font-weight: 800;
+				color: #000;
 			}
 
 	ul {
@@ -176,7 +182,7 @@
     	/*grid-template-columns: auto 30% auto;*/
     	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     	grid-template-rows: 100px;
-		/*padding-top: 1.6vh;*/
+		padding-top: 1.6vh;
 	}
 
 	/*#nametag {
@@ -199,6 +205,7 @@
 
 		#active {
 			font-weight: 800;
+			color: #DD5F75;
 		}
 
 		/* #inactive {
@@ -240,7 +247,7 @@
 
 	.project-puuviljatee {
 		grid-column: 1 / 2;
-  		/* grid-row: 2 / 1; */
+  		grid-row: 2 / 1;
 	}
 
 	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt,
@@ -369,8 +376,21 @@
 				max-width: 60rem;
 			}
 
+			.column {
+				margin-bottom: 20px;
+			}
+
+				.column h3 {
+					padding: 0px;
+				}
+
+				.column p {
+					padding: 0px;
+					margin: 0px;
+				}
+
 				.projectuitleg p {
-					line-height: 2rem;
+					line-height: 1.8rem;
 				}
 
 				@media screen and (min-width: 1900px) {
