@@ -53,22 +53,22 @@
 
 	@font-face {
 		font-family: "Belgika-5th";
-		src: url("../fonts/Belgika-5th.otf") format("opentype");
+		src: url("./fonts/Belgika-5th.otf") format("opentype");
 }
 
 	@font-face {
 	font-family: "Belgika-8th";
-	src: url("../fonts/Belgika-8th.otf") format("opentype");
+	src: url("./fonts/Belgika-8th.otf") format("opentype");
 }
 
 	@font-face {
 	font-family: "Belgika-16th";
-	src: url("../fonts/Belgika-16th.otf") format("opentype");
+	src: url("./fonts/Belgika-16th.otf") format("opentype");
 }
 
 	@font-face {
 	font-family: "Belgika-40th";
-	src: url("../fonts/Belgika-40th.otf") format("opentype");
+	src: url("./fonts/Belgika-40th.otf") format("opentype");
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Body*/
