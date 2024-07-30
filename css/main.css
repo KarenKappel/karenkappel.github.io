@@ -484,7 +484,8 @@
 
 	#imagecontainteraboutme {
 			background: url("../img/karen.jpeg") center no-repeat;
-			background-size: 140%;
+			background-size: 240%;
+			background-position: -580px;
 			height: 300px;
 		}
 
