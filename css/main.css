@@ -190,6 +190,12 @@
 		max-width: 15rem;
 	}*/
 
+	#nametag a {
+		color: #DD5F75;
+		margin-top: 2.5rem;
+		font-weight: 800;
+	}
+
 	header h1:first-child {
 			color: #DD5F75;
 			margin-top: 2.5rem;
