@@ -247,7 +247,7 @@
 
 	.project-puuviljatee {
 		grid-column: 1 / 2;
-  		grid-row: 2 / 2;
+  		grid-row: 2 / 1;
 	}
 
 	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt,
