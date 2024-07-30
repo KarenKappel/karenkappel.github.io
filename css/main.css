@@ -489,7 +489,7 @@
 		}
 
 	.card-container {
-		display: grid;
+			/* display: grid; */
     	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     	grid-template-rows: auto;
     	margin-top: 1rem;
@@ -501,7 +501,10 @@
 		}
 
 		.card-container div {
-			background: #F2CCD9;
+			/* background: #F2CCD9; */
+			border: 2px solid #D3D3D3;
+    	padding: 8px;
+			margin-bottom: 1rem;
 		}
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Footer*/
