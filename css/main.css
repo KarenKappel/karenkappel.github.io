@@ -160,17 +160,17 @@
 
 	p {
 		margin-top: .4rem;
-		margin-bottom: .4rem;
-		padding: 10px;
+    margin-bottom: .4rem;
+    padding: 0px 0px 0px 10px;
 	}
 
-		#firstParagraph {
-			margin: 0 0 16px;
+		.detailParagraph {
+			margin: 0 0 32px;
 		}
 
-		#firstParagraph > p {
+		/* #firstParagraph > p {
 		padding-bottom: 0px;
-		}
+		} */
 
 
 	a {
@@ -206,6 +206,10 @@
 	.wrapper > p {
 		margin-top: 0px;
     padding-top: 8px;
+	}
+
+	.date {
+		color: #DD5F75;
 	}
 
 /* Divider and other decorations */
@@ -482,21 +486,21 @@
 			}
 
 			.column {
-				margin-bottom: 20px;
+				margin: 20px 0px 20px 0px;
 			}
 
 				.column h3 {
 					padding: 0px;
 				}
 
-				.column p {
+				/* .column p {
 					padding: 0px;
 					margin: 0px;
-				}
+				} */
 
-				.projectuitleg p {
+				/* .projectuitleg p {
 					line-height: 1.8rem;
-				}
+				} */
 
 				@media screen and (min-width: 1900px) {
 					.mainprojecten {
