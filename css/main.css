@@ -128,10 +128,10 @@
 	}
 
 	h4 {
-		font-size: calc(.9rem + .1vh);
-		line-height: 2rem;
-		margin-top: 1rem;
-		padding-left: 10px;
+		font-size: calc(.8rem + .1vh);
+		margin-top: .4rem;
+    padding-left: 10px;
+    color: #DD5F75;
 	}
 
 	h5 {
@@ -145,12 +145,32 @@
 		font-weight: 400;
 	}
 
+	.paragraph {
+		margin: 20px 0px;
+	}
+
+	.paragraph p {
+		padding: 2px 10px;
+	}
+
+	.mini-paragraph {
+		margin-bottom: 20px;
+	}
+
 
 	p {
 		margin-top: .4rem;
 		margin-bottom: .4rem;
 		padding: 10px;
 	}
+
+		#firstParagraph {
+			margin: 0 0 16px;
+		}
+
+		#firstParagraph > p {
+		padding-bottom: 0px;
+		}
 
 
 	a {
@@ -161,8 +181,13 @@
 
 			a:hover {
 				cursor: pointer;
-				font-weight: 800;
 				color: #000;
+				text-decoration: underline!important;
+			}
+
+			a:hover #titleName {
+				text-decoration: underline!important;
+				text-decoration-color: #DD5F75!important;
 			}
 
 	ul {
@@ -171,8 +196,46 @@
 
 	li {
 		margin-left: 2rem;
-		padding: 10px;
+		/* padding: 10px; */
 	}
+
+	.wrapper > h4 {
+    margin: 16px 0px 0px 0px;
+	}
+
+	.wrapper > p {
+		margin-top: 0px;
+    padding-top: 8px;
+	}
+
+/* Divider and other decorations */
+
+.divider {
+	 display: flex;
+	 align-items: center;
+	 text-align: center;
+	 margin: 20px 0;
+	 color: #DD5F75;
+	}
+
+	.divider::before, .divider::after {
+	  content: '';
+	  flex: 1;
+	  border-bottom: 0px solid #DD5F75;
+		border-style: dashed;
+		}
+
+	  .divider::before {
+	    margin-right: 10px; /* Space between line and icon */
+	  }
+
+	  .divider::after {
+	    margin-left: 10px; /* Space between line and icon */
+	  }
+
+	  .divider span {
+	      font-size: 24px; /* Customize the size of the dog icon */
+	  }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Header*/
 	/*header area, even breed als de pagina*/
@@ -251,16 +314,52 @@
 		margin-top: calc(1rem + 3.1vh);
 	}
 
-	.project-puuviljatee {
+	.IC-projectPage {
 		grid-column: 1 / 2;
-  		grid-row: 2 / 1;
+		grid-row: 2 / 1;
+		background: lightgrey;
 	}
 
-	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt,
+	#AboutMe .IC-projectPage {
+    background: url("../img/karen.jpeg") no-repeat;
+		margin-top: 24px;
+		background-position-x: -459px;
+	}
+
+	@media screen and (max-width: 1144px) {
+		#AboutMe .IC-projectPage {
+			/* background-position-x: -478px;
+        background-position-y: -300px; */
+        background-size: 150%;
+		}
+	}
+
+	@media screen and (max-width: 1021px) {
+		#AboutMe .IC-projectPage {
+			/* background-position-x: -478px;
+				background-position-y: -300px; */
+				background-size: 200%;
+		}
+	}
+
+	@media screen and (max-width: 500px) {
+		#AboutMe .IC-projectPage {
+			background-position-x: -380px;
+				background-size: 230%;
+		}
+	}
+
+
+
+	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, #imagecontainerdhl,
 	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd {
 		height: 475px;
 		background-size: 120%!important;
 	}
+
+		#imagecontainerdhl {
+			background: url("../img/dhl.png") center no-repeat #ededed;
+		}
 
 		#imagecontainterpuuviljatee {
 			background: url("../img/puuviljatee.jpg") center no-repeat #ededed;
@@ -432,6 +531,13 @@
 					}
 				}
 
+				/* @media screen and (max-width: 1144px) {
+					.imagecontainteraboutme {
+						background-size: 240%;
+				    background-position: -580px;
+				    height: 200px;
+					} */
+
 				@media screen and (max-width: 500px) {
 					header {
 						grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -446,7 +552,7 @@
 						grid-template-rows: 420px auto;
 					}
 
-					#imagecontainterbackrubproject, #imagecontaintersilberfuchsproject, #imagecontainterlefvproject, #imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt,
+					#imagecontainterbackrubproject, #imagecontaintersilberfuchsproject, #imagecontainterlefvproject, #imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, #imagecontainerdhl,
 	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd, #imagecontaintermhdproject {
 						height: 300px;
 					}
@@ -488,12 +594,12 @@
 
 	/*//////////////////////////////////////////////////////////////////////////Content about me*/
 
-	#imagecontainteraboutme {
+	/* #imagecontainteraboutme {
 			background: url("../img/karen.jpeg") center no-repeat;
 			background-size: 240%;
 			background-position: -580px;
 			height: 300px;
-		}
+		} */
 
 	.card-container {
 			/* display: grid; */
@@ -509,9 +615,10 @@
 
 		.card-container div {
 			/* background: #F2CCD9; */
-			border: 2px solid #D3D3D3;
+			border: 2px dashed #DD5F75;
     	padding: 8px;
 			margin-bottom: 1rem;
+			border-radius: 40px;
 		}
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Footer*/
