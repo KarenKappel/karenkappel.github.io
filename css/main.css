@@ -157,6 +157,10 @@
 		margin-bottom: 20px;
 	}
 
+	em {
+		font-weight: 600;
+	}
+
 
 	p {
 		margin-top: .4rem;
@@ -355,11 +359,15 @@
 
 
 
-	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, #imagecontainerdhl,
-	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd {
+	#imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, #imagecontainerdhl, #imagecontainergroomy,
+	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd, #imagecontaintergroomyproject, #imagecontainergroomyproject {
 		height: 475px;
 		background-size: 120%!important;
 	}
+
+		#imagecontainergroomy {
+			background: url("../img/groomy.png") center no-repeat #ededed;
+		}
 
 		#imagecontainerdhl {
 			background: url("../img/dhl.png") center no-repeat #ededed;
@@ -556,7 +564,7 @@
 						grid-template-rows: 420px auto;
 					}
 
-					#imagecontainterbackrubproject, #imagecontaintersilberfuchsproject, #imagecontainterlefvproject, #imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, #imagecontainerdhl,
+					#imagecontainterbackrubproject, #imagecontaintersilberfuchsproject, #imagecontainterlefvproject, #imagecontainterpuuviljatee, #imagecontaintermotek, #imagecontaintersilberfuchs, #imagecontainterbuurt, #imagecontainerdhl, #imagecontainergroomy
 	#imagecontainterherman, #imagecontainterlefv, #imagecontainterbackrub, #imagecontainteridk, #imagecontaintersilberfuchsproject, #imagecontaintermhd, #imagecontaintermhdproject {
 						height: 300px;
 					}
@@ -566,7 +574,7 @@
 			width: 100%;
 		}
 
-		#seductive-authority, #seductive-visual, #seductive-sequencing, #seductive-shaping, #seductive-humour, #seductive-reminders   {
+		#seductive-authority, #seductive-visual, #seductive-sequencing, #seductive-shaping, #seductive-humour, #seductive-reminders, #seductive-sequencing-groomy, #seductive-shaping-groomy, #seductive-reminders-groomy   {
 		    height: 300px;
 		    background-size: 100%!important;
 		}
@@ -582,6 +590,18 @@
 			#seductive-sequencing {
 				background: url("../img/sequencing.png") no-repeat;
 			}
+
+				#seductive-sequencing-groomy {
+						background: url("../img/sequencinggroomy.png") no-repeat;
+				}
+
+				#seductive-shaping-groomy {
+						background: url("../img/shapinggroomy.png") no-repeat;
+				}
+
+				#seductive-reminders-groomy {
+						background: url("../img/RemindersGroomy.png") no-repeat;
+				}
 
 			#seductive-shaping {
 				background: url("../img/shaping.png") no-repeat;
